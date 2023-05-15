@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @font-face {
+            font-family: Poppins;
+            src: url(Poppins-Regular.ttf);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Poppins;
+        }
+
+        body {
+            background-color: lightblue;
+            justify-content: center;
+            align-items: center;
+        }
+
+        hr {
+            border-radius: 50%;
+            margin-bottom: 20px;
+            color: black;
+            height: 1px;
+            width: 100%;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 10px 30px;
+            text-align: center;
+            border-radius: 30px;
+            font-weight: bolder;
+            border: 2px solid white;
+            color: white;
+            background-color: gray;
+            transition: 0.5s;
+            width: 100%;
+        }
+
+        .btn:hover {
+            background-color: lightblue ;
+            letter-spacing: 1px;
+        }
+
+        body .flex {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        body form {
+            margin-top: 20px;
+            width: 400px;
+            
+        }
+
+        form .shad {
+            padding: 20px;
+            box-shadow: 0 0 20px gray;
+            border-radius: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            font-size: 2.5em;
+            letter-spacing: 2px;
+        }
+
+        form div h1 {
+            text-align: center;
+            padding: 10px;
+            font-size: 2em;
+        }
+
+        form div input {
+            border-radius: 4px;
+            line-height: 2rem;
+            font-size: 1rem;
+            color: black;
+            width: 100%;
+            border: 1px solid gray;
+            outline-color: white;
+            padding: 5px;
+        }
+
+        .dis {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            width: 100%;
+        }
+
+        .check {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            line-height: 1em;
+        }
+
+        .gray {
+            color: rgb(89, 89, 89);
+            cursor: pointer;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+
+        .gray:hover {
+            letter-spacing: 0.5px;
+            color: rgb(63, 63, 63);
+        }
+
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>WELCOME TO STUDENS PORTAL!</h1>
+    <hr>
+    <div class="flex">
+    <form action="">
+        <div class="flex shad">
+            <h1>Log in</h1>
+            <hr>
+            <input type="email" name="" id="email" required placeholder="Email">
+            <br>
+            <input type="password" name="" id="email" required placeholder="Password">
+            <br>
+            <a href="" class="btn">Log in</a>
+            <div class="dis">
+                <div class="check">
+                <input type="checkbox" name="rem" id="rem"><label for="rem"> <small> Remember me</small></label>
+            </div>
+            <div>
+                <a href="#"></a><small class="gray">Forgot Password?</small></div>
+        </div>
+        <hr>
+        <div>
+        <a href="" style="text-decoration: none;"><small class="gray">Create an Account</small></a>
+    </div>
+        </div>
+        
+        </div>
+    </form>
+</div>
+</body>
+</html>
